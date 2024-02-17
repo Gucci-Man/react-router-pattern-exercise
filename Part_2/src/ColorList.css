@@ -1,0 +1,12 @@
+
+.ColorList div { /* Target the div directly within ColorList */
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+}
+
+/* Style the links */
+.ColorList a { 
+  margin-bottom: 10px;  /* Add spacing between links */
+  text-decoration: none; /* Remove default underline (optional) */
+  color: blue;           /* Set default link color (optional) */
+}
